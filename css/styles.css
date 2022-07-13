@@ -230,6 +230,14 @@ button:focus,
     color: var(--light-grey);
 }
 
+.contact {
+    text-align: center;
+    border: 2px solid #2b2b2b;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
 @keyframes color-change {
     from {
         fill: #ffff00;
