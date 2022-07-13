@@ -133,6 +133,12 @@ input, textarea, select, button {
     margin-left: 15px;
 }
 
+.svg {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
 .grid {
     display: -ms-grid;
     display: grid;
