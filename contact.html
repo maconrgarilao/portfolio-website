@@ -40,13 +40,13 @@
 
             <form action="/action_page.php" method="post" id="contact-form">
                 <label class="standard-label" for="contact-email">E-mail: </label><br>
-                <input type="email" id="contact-email" required><br><br>
+                <input type="email" id="contact-email" placeholder="sample@email.com" required><br><br>
     
                 <label class="standard-label" for="contact-telephone">Telephone: </label><br>
                 <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br><br>
     
                 <label class="standard-label" for="contact-message">Message: </label><br>
-                <textarea maxlength="240" id="contact-message" required></textarea><br><br>
+                <textarea maxlength="240" id="contact-message" placeholder="max. 240 characters" required></textarea><br><br>
     
                 <input class="button" type="submit" value="Send message">
             </form>
